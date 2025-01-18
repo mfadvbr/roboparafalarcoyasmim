@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot with Voice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>AI Chatbot</h1>
+   
+    <!-- Área do chat -->
+    <div id="chat-container">
+        <div id="chatbox"></div>
+        <input type="text" id="user-input" placeholder="Ask me anything..." />
+        <button onclick="sendMessage()">Send</button>
+        <button onclick="startRecognition()">Use Microphone</button>
+    </div>
+   
+    <!-- Avatar -->
+    <div id="avatar-container">
+        <img id="avatar" src="avatar.png" alt="AI Avatar" />
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
